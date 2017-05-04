@@ -1,11 +1,7 @@
 {
-  "name": "gulpTemplate",
+  "name": "Template",
   "version": "1.0.0",
-  "description": "gulpTemplate - use Jade/Sass",
-  "main": "app.js",
-  "scripts": {
-    "grunt": "gulpTemplate"
-  },
+  "description": "gulp/babel",
   "repository": {
     "type": "git",
     "url": "none"
@@ -16,6 +12,7 @@
   "author": "Truong Dang Nguyen",
   "license": "dangnguyenful@gmail.com",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
@@ -26,10 +23,7 @@
     "gulp-copy": "^1.0.0",
     "gulp-csso": "^3.0.0",
     "gulp-jade": "^1.1.0",
-    "gulp-jsx": "^2.0.1",
     "gulp-livereload": "^3.8.1",
-    "gulp-nodemon": "^2.2.1",
-    "gulp-react": "^3.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.1.2",
     "gulp-watch": "^4.3.11",
